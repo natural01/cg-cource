@@ -1,0 +1,70 @@
+.application {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#window {
+    width: 1000px;
+    height: 700px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+}
+
+.menu {
+    width: 200px;
+    height: 500px;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    border-radius: 3px;
+    border-color: black;
+    cursor: pointer;
+}
+
+.delete {
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    border-color: black;
+    cursor: pointer;
+    background-image: url(../imgs/trash.png);
+    background-size: 35px 37px;
+}
+
+.buttonArea {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bus {
+    display: inline-table;
+}
+
+.computer {
+    display: inline-table;
+}
+.more {
+    display: inline-table;
+}
+.flower {
+    display: inline-table;
+}
+.eric {
+    display: inline-table;
+}
+.rocet {
+    display: inline-table;
+}
+.home {
+    display: inline-table;
+}
+.car {
+    display: inline-table;
+}
+.select {
+    background-color: orange;
+}
